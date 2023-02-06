@@ -1,0 +1,599 @@
+*{
+    background-color: #0D121F;
+}
+
+/* Header 
+     |
+     V   */
+.navbar{
+    border-bottom: 1px solid rgb(48, 48, 48);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+    .centroHead{
+        margin: 0 auto;
+        margin-right: 320px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .centroHead{
+        margin: 0 auto;
+        margin-right: 410px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .centroHead{
+        margin: 0 auto;
+        margin-right: 510px;
+    }
+}
+
+
+.navbar h6{
+    margin-top: 6px;
+    color: #ffff;
+}
+
+
+.navbar button{
+    width: 125px;
+    height: 50px;
+}
+
+/* Meio 
+     |
+     V   */
+
+.diviTitulo1{
+   margin-top: 100px;
+        
+}
+
+.diviTitulo1 h1{
+    color: #ffff;
+}
+    
+.paragrafo1{
+    margin-top: 24px;
+    margin-bottom: -50px;
+    color: #ffff;
+}
+
+@media only screen and (min-width: 1200px) {
+    .paragrafo1{
+        margin-top: 24px;
+        margin-bottom: -90px;
+        color: #ffff;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .paragrafo1{
+        margin-top: 24px;
+        margin-bottom: -100px;
+        color: #ffff;
+    }
+}
+    
+@media only screen and (min-width: 300px) {
+    .placeHolder1{
+        background-color: #1F2024;
+        height: 100px;
+        width: 300px;
+        position: relative;
+        bottom: 0px;
+        right: 0;
+        top: 90px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 18px #0D121F;
+    }
+}
+
+@media only screen and (min-width: 667px) {
+    .placeHolder1{
+        background-color: #1F2024;
+        height: 300px;
+        width: 450px;
+        position: relative;
+        bottom: 0px;
+        right: 0;
+        top: 130px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 18px #0D121F;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .placeHolder1{
+        background-color: #1F2024;
+        height: 300px;
+        width: 450px;
+        position: relative;
+        bottom: 0px;
+        right: 0;
+        top: 130px;
+        margin: 0 auto;
+        border-radius: 15px;
+        box-shadow: 5px 5px 18px #0D121F;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .placeHolder1{
+        background-color: #1F2024;
+        height: 500px;
+        width: 550px;
+        position:absolute;
+        bottom: 0px;
+        left:0;
+        right:0;
+        top: 350px;
+        margin:0 auto;
+        border-radius: 15px;
+        box-shadow: 5px 5px 18px #0D121F;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .placeHolder1{
+        background-color: #1F2024;
+        height: 600px;
+        width: 700px;
+        position:absolute;
+        bottom: 0px;
+        left:0;
+        right:0;
+        top: 400px;
+        margin:0 auto;
+        border-radius: 15px;
+        box-shadow: 5px 5px 18px #0D121F;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .placeHolder1{
+        background-color: #1F2024;
+        height: 450px;
+        width: 850px;
+        position:absolute;
+        bottom: 0px;
+        left:0;
+        right:0;
+        top: 350px;
+        margin:0 auto;
+        border-radius: 15px;
+        box-shadow: 5px 5px 18px #0D121F;
+    }
+}
+
+
+/* Solução 
+      |
+      V   */
+      
+@media only screen and (min-width: 300px) {
+    .fundoSolu{
+        background-color: #ffff;
+        padding-top: 130px;
+    }
+}
+
+@media only screen and (min-width: 667px) {
+    .fundoSolu{
+        background-color: #ffff;
+        padding-top: 180px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .fundoSolu{
+        background-color: #ffff;
+        margin-top: 200px;
+        padding-top: 200px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .fundoSolu{
+        background-color: #ffff;
+        margin-top: 300px;
+        padding-top: 290px;
+    }
+}
+ 
+@media only screen and (min-width: 1400px) {
+    .fundoSolu{
+        background-color: #ffff;
+        margin-top: 300px;
+        padding-top: 300px;
+    }
+}
+
+.tituloSolu{
+    text-align: center;
+    background-color: #ffff;
+}
+
+.tituloSolu h1{
+    color: #0C0047;
+    background-color: #ffff;
+}
+
+.tituloSolu p{
+    color: #969696;
+    background-color: #ffff;
+}
+
+.divCard{
+    margin-top: 50px;
+}
+
+
+.cardsSolu{
+    padding-bottom: 70px;
+    background-color: #ffff;
+    justify-content: space-around;
+}
+
+.cardSoluMargin{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 30px;
+}
+
+.cardSoluFundo{
+    background-color: #ffff;
+}
+
+.imgCardSolu{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 64px;
+    height: 64px;
+}
+
+/* Como Funciona(CF)
+         |
+         V   */
+
+.fundoCF{
+    background-color: #017AFF;
+    padding-top: 70px;
+}
+
+.tituloCF{
+    text-align: center;
+    background-color: #017AFF;
+}
+
+.tituloCF h1{
+    text-align: center;
+    background-color: #017AFF;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+
+.tituloCF p{
+    text-align: center;
+    background-color: #017AFF;
+    color: #ffff;
+}
+
+.imgCF2{
+    background-color: #017AFF;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 310px;
+    height: 364px;
+}
+
+
+/*Todas as telas*/
+@media only screen and (min-width: 601px) {
+    .flexiona{
+        justify-content: center;
+        background-color: #017AFF;
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .fundoCFIMG{
+        background-color: #017AFF;
+        padding-top: 70px;
+    }
+
+    .ladinhoTab{
+        margin-right: 200px;
+    }
+}
+
+/*Celular específico*/
+@media only screen and (max-width: 600px) {
+    .flexiona{
+        justify-content: center;
+        background-color: #017AFF;
+        display: contents;
+    }
+
+    .fundoCFIMG{
+        background-color: #017AFF;
+        margin-top: -100px;
+    }
+
+}
+
+.navItemMT{
+    margin-top: 10px;
+}
+
+.fundoColCF{
+    background-color: #017AFF;
+}
+
+.fundoColCFFunc{
+    color: #ffff;
+    background-color: #017AFF;
+}
+
+
+/*  Footer
+      |
+      V  */
+
+.topicosFoo a{
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 992px) {
+    .downloadFoo{
+        display: grid;
+        justify-content: space-between;
+    }
+
+    .ImgIOS{
+        margin-bottom: 20px;
+
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .downloadFoo{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ImgIOS{
+        margin-right: 20px;
+        width: 400px;
+        height: 2px;
+    }
+
+    .ImgAndroid{
+        width: 400px;
+        height: 2px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .downloadFoo{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ImgIOS{
+        margin-right: 20px;
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    .ImgAndroid{
+        margin-top: 20px;
+        width: 200px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*sans*/
+.sansH1{
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.sans{
+    background-color: #1F2024;
+        height: 450px;
+        width: 850px;
+        position:absolute;
+        bottom: 0px;
+        left:0;
+        right:0;
+        top: 100px;
+        margin:0 auto;
+        border-radius: 15px;
+        box-shadow: 5px 5px 18px #0D121F;
+}
